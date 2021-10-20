@@ -1,0 +1,45 @@
+.main{
+    background-color: #faf8f8;
+    height: 500px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    height: 100px;
+    width: 550px;
+    background-color: grey;
+}
+
+.floor{
+    height: 100px;
+    width: 550px;
+    background-color: orange;
+}
+
+.target{
+    background-color: white;
+    height: 300px;
+    display: flex;
+}
+.xxx{
+    background-color: blueviolet;
+    height: 300px;
+    width: 100px;
+}
+.qqq{
+    background-color: #0e3110;
+    height: 150px;
+    width: 450px;
+}
+.www{
+    background-color: #74030b;
+    height: 150px;
+    width: 450px;
+}
+.love{
+  display: flex;
+    flex-direction: column;
+}
+

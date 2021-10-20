@@ -1,0 +1,36 @@
+.main{
+    height: 800px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 50px;
+    width: 100%;
+    background-color: darkcyan;
+}
+.love{
+    height: 50px;
+    width: 100%;
+    background-color: #40abab;
+}
+.target{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+.a{
+    height: 300px;
+    width: 500px;
+    background-color: #056b6b;
+}
+.b{
+    height: 300px;
+    width: 200px;
+    background-color: #163636;
+}
+.floor{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+}

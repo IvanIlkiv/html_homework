@@ -1,0 +1,37 @@
+.full{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 300px;
+    width: 900px;
+    background-color:cornflowerblue ;
+}
+.floor{
+    height: 300px;
+    width: 900px;
+    background-color: blue;
+}
+.qqq{
+    display: flex;
+}
+.zzz{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+.ccc{
+    height: 300px;
+    width: 300px;
+    background-color: #96650a;
+}
+.vvv{
+    height: 300px;
+    width: 300px;
+    background-color: #332101;
+}
+.o{
+    margin: 20px;
+}

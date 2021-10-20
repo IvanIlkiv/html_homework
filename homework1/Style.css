@@ -1,0 +1,25 @@
+.qwe{
+    background-color: cadetblue;
+    height: 500px;
+    width: 100%;
+    /*display: flex;*/
+}
+.a{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+
+}
+.b{
+    background-color: black;
+    height: 400px;
+    width: 70%;
+}
+.c{
+    background-color: lawngreen;
+    height: 400px;
+    width: 30%;
+}
+.v{
+    display: flex;
+}

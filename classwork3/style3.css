@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    background-color: #0e3110;
+    height: 100px;
+    width: 600px;
+
+}
+.target{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.love{
+    background-color: #40abab;
+    height: 200px;
+    width: 100px;
+}
+.qqq{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.qwe{
+    background-color: #7a960d;
+    height: 100px;
+    width: 500px;
+}
+.baby{
+    display: flex;
+}
+.a{
+    background-color: #000000;
+    height: 100px;
+    width: 33%;
+}
+.b{
+    background-color: #0d7474;
+    height: 100px;
+    width: 33%;
+}
+.c{
+    background-color: #202620;
+    height: 100px;
+    width: 33%;
+}
