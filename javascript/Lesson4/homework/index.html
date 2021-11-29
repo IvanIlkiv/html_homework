@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б-->
+<!-- - створити функцію яка обчислює та повертає площу кола з радіусом r-->
+<!-- - створити функцію яка обчислює та повертає об'єм циліндру висотою h, та радіутом r-->
+<!-- - створити функцію яка приймає масив та виводить кожен його елемент-->
+<!-- - створити функцію яка створює параграф з текстом. Текст задати через аргумент-->
+<!-- - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий-->
+<!-- - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)-->
+<!-- - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список-->
+
+<!-- - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.-->
+
+<script>
+    // <!-- - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б-->
+    // function calculateS(a,b){
+    //     return a*b
+    // }
+    // let S1=calculateS(14,10)
+    // console.log(S1)
+    //
+    // <!-- - створити функцію яка обчислює та повертає площу кола з радіусом r-->
+    // function calculateS(r){
+    //     return r*r*Math.PI
+    // }
+    // let S1=calculateS(8)
+    // console.log(S1)
+
+    <!-- - створити функцію яка приймає масив та виводить кожен його елемент-->
+    // let names=['ivan','toni','leo','cristiano','diego','johan','roderto','sadio','mohamed','virgil']``
+    // function arrayLogger(array){
+    //     for (let element of array) {
+    //         console.log(element)
+    //     }
+    // }
+    // arrayLogger(names)
+    <!-- - створити функцію яка створює параграф з текстом. Текст задати через аргумент-->
+    // function paragraphcreator(paragraph){
+    //     document.write(`<p>${paragraph}</p`)
+    // }
+    // paragraphcreator("cmbjbfgnklfbkdf")
+    //
+    <!-- - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий-->
+    // function liCreator(liText){
+    //     document.write(`<ul>
+    //                         <li>${liText}</li>
+    //                         <li>${liText}</li>
+    //                         <li>${liText}</li>
+    //                         </ul>`
+    //     )
+    //  }
+    // liCreator('lll')
+    //  liCreator('ccc')
+    <!-- - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список-->
+    // function liCreator(text,quantity){
+    //     document.write('<ul>')
+    //   for (let i=0 ; i<=quantity;i++){
+    //       document.write(`<li>${text}</li>`)
+    //     }
+    //     document.write('</ul>')
+    // }
+    // liCreator("ffffffffffffffff",21)
+    // let names=['ivan','toni','leo','cristiano','diego','johan','roderto','sadio','mohamed','virgil',3,4,5,6,7,]
+    // function liCreator(array) {
+    //     document.write('<ul>')
+    //     for (let el of array) {
+    //
+    //         document.write(`<li>${el}</li>`)
+    //     }
+    //     document.write('</ul>')
+    // }
+    // liCreator(names)
+
+    // !-- - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.-->
+
+    let usersWithId = [
+        {id: 1, name: 'vasya', age: 31},
+        {id: 2, name: 'petya', age: 30},
+        {id: 3, name: 'kolya', age: 29},
+        {id: 4, name: 'olya', age: 28}
+    ];
+  function userwrite(array) {
+      for (const usersWithIdElement of usersWithId) {
+          document.write(`<div>${usersWithIdElement.id} - ${usersWithIdElement.name} - ${usersWithIdElement.age}</div>`)
+
+      }
+  }
+  userwrite(usersWithId)
+
+
+</script>
+
+</body>
+</html>
